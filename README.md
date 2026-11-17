@@ -20,7 +20,7 @@ SuseCloud es un plugin de Kino que se conecta al **servidor de Susejing** (`suse
 3. En Kino: **Ajustes ▸ Usa un plugin ▸ Por dirección** y pega:
 
    ```
-   https://raw.githubusercontent.com/Susejing/susecloud/main/kino-plugin.json
+   https://raw.githubusercontent.com/Susejing/SusejingCloud/main/kino-plugin.json
    ```
 
 4. En **Configurar** del plugin: `Servidor` = la dirección que imprime la ventana del servidor (ej. `http://192.168.1.17:8420`) y `Clave` = la clave de `config.json` (por defecto `susejing`). Toca **Probar conexión**.
