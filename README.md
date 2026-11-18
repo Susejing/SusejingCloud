@@ -15,7 +15,7 @@ Tu PC se vuelve una nube pequeña con el **Servidor de Susejing** (un solo archi
 
 1. Tener [Node.js](https://nodejs.org) (versión 18 o superior) en el PC.
 2. Tener el **Servidor de Susejing** corriendo: carpeta `susejing-server` con `susejing-server.js` e `iniciar.bat`; doble clic en `iniciar.bat`.
-3. Bridar carpetas desde la página web del servidor (la que imprime `iniciar.bat`, ej. `http://localhost:8420`).
+3. Agrega carpetas desde la página web del servidor (la que imprime `iniciar.bat`, ej. `http://localhost:8420`).
 
 ## Instalación
 
