@@ -1,1 +1,30 @@
-{"id":"susecloud","name":"SuseCloud","version":"0.1.0","apiVersion":8,"entry":"plugin.js","description":"SuseCloud: contenido de tu propio PC (servidor de Susejing). Escribe la dirección de tu servidor y tu clave; nada sale de tu red, solo tu navegador y tu Kino leen de ahí.","author":"Susejing","homepage":"https://github.com/Susejing/SusejingCloud","hosts":[],"capabilities":["home","browse","episodes","search","resolve","download"],"categories":["utilities"],"discoverable":false,"color":"#5B8DEF","settings":[{"key":"server","label":"Servidor","type":"url","required":true,"hint":"http://192.168.1.17:8420"},{"key":"clave","label":"Clave del servidor","type":"password","required":true,"hint":"susejing"},{"key":"estado","label":"Estado de la conexión","type":"status"},{"key":"probar","label":"Probar conexión","type":"action"}]}
+{
+  "id": "susecloud",
+  "name": "SusejingCloud",
+  "version": "1.0.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "description": "Tu nube personal: mira en Kino los videos, la música y las fotos de tu PC. Necesita el Servidor de Susejing corriendo en tu casa: escribe su dirección y su clave en Configurar y listo, tus carpetas aparecen ahí.",
+  "author": "Susejing",
+  "homepage": "https://github.com/Susejing/SusejingCloud",
+  "hosts": [],
+  "capabilities": ["search", "home", "browse", "episodes", "resolve", "download"],
+  "categories": ["movies"],
+  "discoverable": false,
+  "debug": false,
+  "section": { "label": "SusejingCloud" },
+  "theme": {
+    "accent": "#7fb4ff",
+    "onAccent": "#04101f",
+    "background": "#0d1526",
+    "surface": "#15241f",
+    "highlight": "#e8ecf5"
+  },
+  "settings": [
+    { "key": "cuenta", "label": "Mi servidor", "type": "section", "hint": "La dirección la imprime iniciar.bat al arrancar, ej: http://192.168.1.17:8420" },
+    { "key": "server", "label": "Dirección del servidor", "type": "url", "required": true, "hint": "http://192.168.1.17:8420" },
+    { "key": "clave", "label": "Clave del servidor", "type": "password", "required": true, "hint": "Por defecto: susejing" },
+    { "key": "estado", "label": "Estado", "type": "status" },
+    { "key": "probar", "label": "Probar conexión", "type": "action" }
+  ]
+}
